@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Kevin Nguyen">
     <meta name="description" content="Portfolio of Kevin Nguyen.">
     <title>Kevin Nguyen | Portfolio</title>
@@ -9,53 +10,53 @@
     <link rel="icon" href="html5.png" type="image/x-icon">
 </head>
 <body>
-    <!-- Header / Navigation -->
-    <header>
+    <!-- Hero Section -->
+    <section id="hero">
+        <button id="menu-button">Menu</button>
         <h1>Kevin Nguyen</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+        <p>Web Developer & Designer</p>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm Kevin! I'm learning HTML and CSS and building my skills as a web developer.</p>
+        <!-- Header / Navigation -->
+        <header>
+            <nav id="nav-menu" class="hidden">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-item">
-            <h3>Project 1</h3>
-            <p>Short description of what this project is about and the technologies used.</p>
-        </div>
-        <div class="project-item">
-            <h3>Project 2</h3>
-            <p>Another project description.</p>
-        </div>
-        <!-- Add more project items here -->
-    </section>
+    <!-- Main Content -->
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Kevin! I'm learning HTML and CSS and building my skills as a web developer.</p>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <!-- Add other skills as you learn them -->
-        </ul>
-    </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>Description of the project with technologies used.</p>
+            </div>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Reach out to me at: <a href="mailto:kevinn0308@gmail.com">kevinn0308@gmail.com</a></p>
-    </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Reach out to me at: <a href="mailto:kevinn0308@gmail.com">kevinn0308@gmail.com</a></p>
+        </section>
+    </main>
 
     <script src="main.js"></script>
 </body>
