@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #333;
+    margin: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: #444;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #ff7f50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffa07a;
+}
+
+/* Section Styling */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 2rem;
+    background-color: #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    color: #ff7f50;
+}
+
+/* Project Item Styling */
+.project-item {
+    margin-bottom: 1rem;
+}
+
+.project-item h3 {
+    margin: 0;
+}
+
+/* Contact Section */
+a {
+    color: #ffa07a;
+    text-decoration: none;
+}
